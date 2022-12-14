@@ -1,13 +1,19 @@
 * {
-    background-color: rgb(1, 2, 51);
+    background-color: rgb(2, 3, 68);
     color: white;
 }
 
-.title {
+h1.title {
     color: antiquewhite;
+    background-color: white;
     margin-right: 70px;
+    color: black;
     text-align: center;
+    position: fixed;
+    animation-name: lgbt;
 }
+
+
     .title:hover {
         background-color: rgb(1, 2, 51);
         color: rgb(5, 146, 9);
