@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+@font-face {
+    font-family: 'Pacifico';
+    src: url('../fonts/Pacifico-Regular.ttf');
+}
+
+* {
+    background-color: rgb(1, 2, 51);
+    color: white;
+}
+
+.title {
+    color: antiquewhite;
+    margin-right: 70px;
+    text-align: center;
+}
+    .title:hover {
+        background-color: rgb(1, 2, 51);
+        color: rgb(5, 146, 9);
+    }
+
+#algonimation {
+    animation-duration: 170s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+            margin-left: 100%;
+            width: 200%;
+        }
+    
+        to {
+            margin-left: 0%;
+            width: 100%;
+        }
+}
+h2 {
+
+    font-size:24px;
+}
+
+p {
+    text-align: center;
+}
+.video {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+.video iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+footer {
+    text-align: center;
+}
+
+div{
+    width: 85%;
+    height: 20px;
+    margin:0 auto 10px auto;
+    border: 1px white;
+    box-sizing: border-box;
+}
+
+/* les animations  */
+.animchose {
+    background-color: #010233;
+    animation-name: couleur;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes couleur {
+    from{
+        background-color: #ffa500;
+    }
+    25%{
+        background-color: #0000ff;
+        width: 75%;
+    }
+    56% {
+        background-color: #008000;
+        width: 40%;
+    }
+    58% {
+            background-color: #ffc0cb;
+            width: 40%;
+    }
+
+    75%{
+        background-color: #ff0000;
+        width: 1%;
+    }
+    to{
+        background-color: #010233;
+    }
+
+}
+
+.animchose2 {
+    background-color: rgb(1, 2, 51);
+    animation-name: couleur2;
+    animation-duration: 60s;
+}
+
+@keyframes couleur2 {
+    from {
+        background-color: orange;
+    }
+
+    25% {
+        background-color: rgb(255, 162, 0);
+        width: 30%;
+    }
+
+    50% {
+        background-color: green;
+        width: 50%;
+    }
+
+    75% {
+        background-color: rgb(85, 76, 167);
+        width: 1%;
+    }
+
+    to {
+        background-color: rgb(1, 2, 51);;
+    }
+
+}
+
+#ligne {
+    border-bottom: 1px solid rgb(190, 222, 95);
+}
