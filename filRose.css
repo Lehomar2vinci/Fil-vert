@@ -1,23 +1,22 @@
 * {
-    background-color: rgb(2, 3, 68);
+    background-color: rgb(3, 4, 61);
     color: white;
 }
 
-h1.title {
-    color: antiquewhite;
-    background-color: white;
+h1 {
+    color: rgb(3, 4, 61);
+    background-color: rgb(235, 27, 27);
     margin-right: 70px;
     color: black;
     text-align: center;
-    position: fixed;
-    animation-name: lgbt;
+    /* position: fixed; */
 }
 
 
-    .title:hover {
-        background-color: rgb(1, 2, 51);
-        color: rgb(5, 146, 9);
-    }
+.title:hover {
+    background-color: rgb(1, 2, 51);
+    color: rgb(5, 146, 9);
+}
 
 #algonimation {
     animation-duration: 170s;
@@ -27,7 +26,7 @@ h1.title {
 @keyframes slidein {
     from {
             margin-left: 100%;
-            width: 200%;
+            width: 150%;
         }
     
         to {
@@ -35,20 +34,23 @@ h1.title {
             width: 100%;
         }
 }
-h2 {
 
+h2 {
     font-size:24px;
 }
 
+
 p {
-    text-align: center;
+    text-align:center;
 }
+
 .video {
     overflow: hidden;
     padding-bottom: 56.25%;
     position: relative;
     height: 0;
 }
+
 .video iframe {
     left: 0;
     top: 0;
@@ -56,11 +58,9 @@ p {
     width: 100%;
     position: absolute;
 }
-footer {
-    text-align: center;
-}
 
-div{
+
+div {
     width: 85%;
     height: 20px;
     margin:0 auto 10px auto;
@@ -89,10 +89,9 @@ div{
         width: 40%;
     }
     58% {
-            background-color: #ffc0cb;
-            width: 40%;
+        background-color: #ffc0cb;
+        width: 40%;
     }
-
     75%{
         background-color: #ff0000;
         width: 1%;
@@ -100,18 +99,18 @@ div{
     to{
         background-color: #010233;
     }
-
 }
 
 .animchose2 {
     background-color: rgb(1, 2, 51);
     animation-name: couleur2;
-    animation-duration: 60s;
+    animation-duration: 30s;
 }
 
 @keyframes couleur2 {
     from {
         background-color: orange;
+        width: 15% ;
     }
 
     25% {
@@ -135,6 +134,11 @@ div{
 
 }
 
-#ligne {
+
+.ligne {
     border-bottom: 1px solid rgb(190, 222, 95);
+}
+
+footer {
+    text-align: center;
 }
